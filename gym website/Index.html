@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo | Gym website</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Inconsolata&family=Roboto+Mono&family=Roboto:wght@100;400&family=Varela+Round&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset  */
+    /* .img{
+        width: 100px;
+        height: 80px;
+    } */
+    body{
+        font-family: 'Balsamiq Sans', 'cursive';
+        color:white;
+        margin: 0px;
+        padding: 0px;
+        background: url('Background.jpg');
+        /* background-repeat: no-repeat; */
+        
+    }
+    .left{
+        display: inline-block;
+        /* border: 4px solid purple; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+    .left img{
+        width: 80px;
+        filter: invert(100%);
+    } 
+    .mid{
+        display: block;
+    width: 58%;
+    margin: 17px 213px;
+    padding: 4px 40px;
+    /* border: 4px solid purple; */
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 4px solid purple; */
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 47px 53px;
+    }
+    .navbar li a:hover, a.active{
+        text-decoration: underline;
+        /* text-decoration: underline; */
+        color: grey;
+    }
+    .btn{
+        font-family: 'Balsamiq Sans', 'cursive';
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 7px 9px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(31, 30, 30);
+    }
+    .container{
+        border: 2px solid white;
+    margin: 99px 83px;
+    padding: 28px 24px;
+    width: 636px;
+    border-radius: 20px;
+    }
+    .form-group input{
+        font-family: 'Balsamiq Sans', 'cursive';
+        text-align: center;
+    display: block;
+    font-size: 17px;
+    width: 277px;
+    border: 2px solid white;
+    margin: 12px 143px;
+    padding: 5px 11px;
+    border-radius: 20px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container .btn{
+        font-size: 16px;
+    display: block;
+    width: 302px;
+    margin: 0px 144px;
+    margin-top: 23px;
+    border-radius: 20px
+    }
+    .end p{
+    list-style: armenian;
+    width: px;
+    margin: 9px 50px;
+    padding: 1px 17px;
+    }
+    .end h5{
+        width: px;
+    margin: 9px 50px;
+    padding: 1px 17px;
+    }
+
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <div>
+                <img src="Gym logo.png" alt="">
+            </div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- Right side for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button><button class="btn">E-mail</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Best gym of Bhadrak Town, Must Visit.</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="email" name="" placeholder="Enter your e-mail">
+            </div>
+            <div class="form-group">
+                <input type="date" name="" placeholder="Enter your Dob">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="male, female, other" placeholder="Enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <div class="end">
+        <h5>About Us:</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Vel ducimus reprehenderit libero molestiae temporibus officiis harum fugit esse at laboriosam recusandae beatae modi magnam quis alias, 
+            incidunt inventore! Inventore nulla commodi molestiae similique voluptatem excepturi tempora libero aliquam quibusdam ipsa eveniet asperiores dolores, 
+            provident id, quidem deserunt repellat vel cumque.</p>
+    </div>
+    
+</body>
+</html>
